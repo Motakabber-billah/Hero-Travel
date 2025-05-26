@@ -54,6 +54,7 @@
     justify-items: center;
     align-items: center;
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 
 .banner-hero-container{
@@ -107,7 +108,8 @@
     border-radius: 10px;
     color: #131318;
     border: none;
-    font-size: 1rem;   
+    font-size: 1rem; 
+    padding-left: 10px;  
 }
 
 .search-btn{
@@ -119,4 +121,146 @@
     font-size: 1rem;
     font-weight: bold;
     color: #ffffff;
+}
+
+ul.tour-description-2 {
+    list-style-type: circle;
+}
+
+/* Popular Section starts */
+
+.popular{
+    display: flex;
+    margin-left: 130px;
+    margin-right: 130px;
+    column-gap: 50px;
+    margin-bottom: 100px;
+}
+
+.tour-title{
+    font-size: 2.8rem;
+    font-weight: bolder;
+    color: #131318;
+    margin-bottom: 2.5rem;
+}
+
+.tour-description-1, .tour-1, .tour-description-3{
+    font-size: 1rem;
+}
+
+.tour-descripption-2{
+    margin-bottom: 24px;
+}
+
+.tour-btn{
+    font-size: 16;
+    font-weight: bold;
+    background-color: #FF5400;
+    color: #ffffff;
+    padding: 15px 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Destination Section Starts */
+.destination{
+    margin-bottom: 100px;
+}
+.destination-title, .destination-description{
+    text-align: center;
+}
+
+.destination-title{
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-bottom: 24px;
+    color: #131318;
+}
+
+.destination-description{
+    font-size: 1rem;
+    color: #131318;
+    margin-bottom: 48px;
+}
+
+.row{
+    margin-left: 130px;
+    margin-right: 130px;
+    height: 300px;
+    display: flex;
+    column-gap: 25px;
+    margin-bottom: 25px;
+}
+
+.row img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.row-1{
+    position: relative;
+}
+
+.maldives{
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 150px;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.indonesia{
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 150px;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.srilanka{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 150px;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.north-america{
+    position: absolute;
+    margin-left: 560px;
+    margin-top: 150px;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.kashmir{
+    position: absolute;
+    margin-left: 1030px;
+    margin-top: 150px;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.bangladesh{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 150px;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.bandarban{
+    position: absolute;
+    margin-left: 820px;
+    margin-top: 150px;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: bold;
 }
