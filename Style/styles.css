@@ -264,3 +264,163 @@ ul.tour-description-2 {
     font-size: 1.8rem;
     font-weight: bold;
 }
+
+/* Choose Section Started */
+
+.choose{
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.choose-container{
+    display: flex;
+    column-gap: 24px;
+    margin-bottom: 24px;
+}
+
+.choose-title, .deal-discount-title{
+    font-size: 2.7rem;
+    font-weight: bolder;
+    color: #131318;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.choose-description, .deal-discount-description{
+    font-size: 1rem;
+    color: #131318;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.hotel-title , .Service-title, .price-title{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.hotel, .Service, .price{
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+}
+
+.hotel-description, .Service-description, .price-description {
+    margin-bottom: 32px;
+    margin-left: 32px;
+}
+
+.hotel-items{
+    background-color: rgb(251, 181, 99,.05);
+    border-radius: 16px;
+}
+
+.Service-items{
+    background-color: rgb(41, 206, 246, .05);
+    border-radius: 16px;
+}
+
+.price-container{
+    display: flex;
+    justify-content: center;
+}
+
+.price-items{
+    height: 350px;
+    width: 610px;
+    background-color: rgb(251, 181, 99,.05);
+    border-radius: 16px;
+}
+
+/* Deal and Discount Starts */
+.deal-discount{
+    margin-right: 130px;
+    margin-left: 130px;
+}
+
+.deal-discount-container, .deal-discount-container-1{
+    height: 500px;
+    width: 100%;
+    background-image: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tour-package-container,.tour-package-container-1{
+    width: 579px;
+    height: 390px;
+    background-color: rgb(255, 255, 255,0.8);
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+.tour-package-info{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.img{
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+}
+
+.info{
+    font-size: 16px;
+    margin-right: 24px;
+    color: #5A5A5D;
+}
+
+.tour-package-detail{
+    margin-top: 24px;
+    padding: 0 77px 50px 50px;
+}
+
+.tour-location{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #131318;
+    margin-bottom: 16px;
+}
+
+.tour-location-detail{
+    font-size: 16px;
+    color: #5A5A5D;
+    
+}
+
+.package-price{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #FF5400;
+    margin-bottom: 24px;
+}
+
+.package-book{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: #FF5400;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 5px;
+}
+
+.deal-discount-container-1{
+    background-image: url('../Images/Group\ 40.png');
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.tour-package-container-1{
+   margin-left: -500px;
+}
