@@ -126,9 +126,59 @@ body{
     color: #ffffff;
 }
 
-ul.tour-description-2 {
-    list-style-type: circle;
+/* Small device Media Queries for Nav and Container Section */
+@media screen and (max-width:600px) {
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+    .nav-title{
+        font-size: 1.5rem;
+    }
+    .nav-icon{
+        width: 33px;
+        height: 28px;
+    }
+    .container{
+        width: 500px;
+        height: 483px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .banner-hero-container{
+        width: 500px;
+        height: 483px;
+    }
+    .explore-title{
+        font-size: 22px;
+    }
+    .explore-description{
+        font-size: .6rem;
+    }
+    .find-container{
+        flex-direction: column;
+        width: 460px;
+        height: 200px;
+        row-gap: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .find-btn{
+        width: 400px;
+    }
+    .search-btn{
+        width: 400px;
+    }
 }
+
+
+
 
 /* Popular Section starts */
 
@@ -151,6 +201,10 @@ ul.tour-description-2 {
     font-size: 1rem;
 }
 
+ul.tour-description-2 {
+    list-style-type: circle;
+}
+
 .tour-descripption-2{
     margin-bottom: 24px;
 }
@@ -164,7 +218,31 @@ ul.tour-description-2 {
     border-radius: 5px;
     border: none;
 }
-
+/* Small device Media Queries for Our Popular Tours Section */
+@media screen and (max-width:600px) {
+    .popular{
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+    .tour-title{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .tour-description-1, .tour-1, .tour-description-3{
+    font-size: 14px;
+    }
+    .tour-btn{
+        margin-bottom: 10px;
+    }
+    .tour-img-container{
+        width: 600px;
+    }
+    .tour-img{
+        width: 510px;
+    }
+}
 /* Destination Section Starts */
 .destination{
     margin-bottom: 100px;
@@ -266,6 +344,18 @@ ul.tour-description-2 {
     color: #ffffff;
     font-size: 1.8rem;
     font-weight: bold;
+}
+
+@media screen and (max-width:600px) {
+   .destination-title{
+    font-size: 1.4rem;
+   }
+   .destination-description{
+    font-size: 14px;
+   }
+   .row{
+    flex-direction: column;
+   }
 }
 
 /* Choose Section Started */
@@ -642,3 +732,4 @@ ul.perfect-place-list{
     color: #131318;
     text-align: center;
 }
+
