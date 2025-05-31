@@ -2,6 +2,11 @@ body{
     width: auto;
     margin: auto;
 }
+@media screen and (max-width:600px) {
+    body{
+        width: 600px;
+    }
+}
 .mulish-hero {
   font-family: "Mulish", sans-serif;
   font-optical-sizing: auto;
@@ -143,14 +148,14 @@ body{
         height: 28px;
     }
     .container{
-        width: 500px;
+        width: 600px;
         height: 483px;
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 20px;
     }
     .banner-hero-container{
-        width: 500px;
+        width: 600px;
         height: 483px;
     }
     .explore-title{
@@ -240,7 +245,7 @@ ul.tour-description-2 {
         width: 600px;
     }
     .tour-img{
-        width: 510px;
+        width: 600px;
     }
 }
 /* Destination Section Starts */
@@ -346,6 +351,7 @@ ul.tour-description-2 {
     font-weight: bold;
 }
 
+/* Small device Media Queries for Choose Your Destination Section */
 @media screen and (max-width:600px) {
    .destination-title{
     font-size: 1.4rem;
@@ -355,7 +361,48 @@ ul.tour-description-2 {
    }
    .row{
     flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    column-gap: 0px;
+    margin-bottom: 0px;
+    height: auto;
    }
+   .row img{
+    width: 600px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.maldives{
+    margin-left: 200px;
+    margin-top: 70px;
+}
+.indonesia{
+     margin-left: 200px;
+    margin-top: 260px;
+}
+.srilanka{
+    margin-left: 200px;
+    margin-top: 70px;
+}
+.north-america{
+    margin-left: 160px;
+    margin-top: 260px
+}
+.kashmir{
+    margin-left: 200px;
+    margin-top: 450px;
+}
+.bangladesh{
+    margin-left: 180px;
+    margin-top: 70px;
+}
+.bandarban{
+    margin-left: 180px;
+    margin-top: 260px;
+}
+.destination{
+    margin-bottom: 20px;
+}
 }
 
 /* Choose Section Started */
@@ -425,6 +472,54 @@ ul.tour-description-2 {
     background-color: rgb(251, 181, 99,.05);
     border-radius: 16px;
 }
+
+/* Small device Media Queries for Why Choose Us Section */
+@media screen and (max-width:600px) {
+    .choose{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.choose-title, .deal-discount-title{
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.choose-description, .deal-discount-description{
+    font-size: 14px;
+    margin-bottom: 15pxpx;
+}
+.choose-container{
+    flex-direction: column;
+}
+.hotel-title , .Service-title, .price-title{
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.hotel-description, .Service-description, .price-description {
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+.hotel, .Service, .price{
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+.choose-container{
+    row-gap: 10px;
+    margin-bottom: 10px;
+    width: 600px;
+}
+.price-items{
+    width: 600px;
+    background-color: rgb(251, 181, 99,.05);
+    border-radius: 16px;
+}
+.price-container{
+    flex-direction: column;
+}
+
+}
+
 
 /* Deal and Discount Starts */
 .deal-discount{
@@ -535,6 +630,41 @@ ul.tour-description-2 {
     margin-bottom: 100px;
 }
 
+/* Small device Media Queries for Deal & Discount Section */
+@media screen and (max-width:600px) {
+    .deal-discount{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.deal-discount-container, .deal-discount-container-1{
+    height: 500px;
+    width: 600px;   
+}
+.tour-package-container,.tour-package-container-1{
+    width: 400px;
+    height: 390px;
+    margin-left: 0px;
+    
+}
+.tour-package-info{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.info{
+    font-size: 16px;
+    margin-right: 10px;
+    color: #5A5A5D;
+}
+.tour-package-detail{
+    margin-top: 5px;
+    padding: 0px 20px 20px 20px;
+}
+.packages-btn{
+    margin-bottom: 20px;
+}
+}
+/* Start Of Perfect Place To Get Lost */
 .perfect-place-container{
     width: 50%;
     margin-right: 20px;
@@ -585,7 +715,46 @@ ul.perfect-place-list{
     width: 610px;
     height: 424px;
 }
+/* Small device Media Queries for Perfect Place To Get Lost Section */
+@media screen and (max-width:600px) {
+    .perfect-place{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.perfect-place-container{
+    width: 100%;
+    margin-right: 20px;
+}
+.perfect-place-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.perfect-place-description{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+ul.perfect-place-list{
+    list-style-type: disc;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.perfecr-place-btn{
+    margin-bottom: 20px;
+}
+.perfect-place-video{
+    width: 100%;
+}
 
+.perfect-video{
+    width: 600px;
+    height: 424px;
+}
+}
+/* End of Small device Media Queries for Perfect Place To Get Lost Section */
+
+/* Start of Newsletter Section */
 .newsletter{
     display: flex;
     margin-right: 130px;
@@ -621,6 +790,7 @@ ul.perfect-place-list{
     width: 393px;
     color: rgba(19, 19, 24, 0.1);
     margin-bottom: 24px;
+    margin-left: 0px;
 }
 
 .newsletter-text, .newsletter-email, .newsletter-btn{
@@ -675,6 +845,74 @@ ul.perfect-place-list{
     font-weight: bolder;
 }
 
+/* Start of Small device Media Queries for Newsletter Section */
+@media screen and (max-width:600px) {
+    .newsletter{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 600px;
+}
+.newsletter-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: auto;
+    margin-bottom: 20px;
+}
+.newsletter-text, .newsletter-email, .newsletter-btn{
+    width: 450px;
+    height: 52px;
+    margin: 5px auto;
+}
+.newsletter-btn{
+    background-color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    color: #ffffff;
+    width: 470px;
+    margin-bottom: 10px;
+}
+.newsletter-title{
+    margin-left: 15px;
+    margin-bottom: 10px;    
+}
+
+.newsletter-description{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    
+}
+.newsletter-line{
+    margin-left: 15px;
+}
+.save{
+    width: 600px;
+}
+.save-img{
+    width: 600px;
+    height: auto;
+}
+.save-btn{
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    margin-top: 270px;
+    margin-left: -150px;
+    transform: rotate(-45deg);
+}
+.save-percent{
+    font-size: 20px;
+    font-weight: bolder;
+}
+}
+/* End of Small device Media Queries for Newsletter Section */
+
+/* Start of Footer Section */
 .footer-hero-container{
     background-color: rgba(19, 19, 24, 0.05);
     padding-right: 130px;
@@ -733,3 +971,31 @@ ul.perfect-place-list{
     text-align: center;
 }
 
+/* Start of Small device Media Queries for Footer Section */
+@media screen and (max-width:600px) {
+    .footer-hero-container{
+    background-color: rgba(19, 19, 24, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.footer-description{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    margin-bottom: 33px;
+}
+.footer-hr{
+    width: 100%;
+}
+.footer-description{
+    text-align: center;
+    margin-bottom: 33px;
+}
+}
